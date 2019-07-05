@@ -38,6 +38,7 @@
           if (cameras.length > 0) {
               global_cams = cameras;
               showCameras(cameras);
+           // cameras 1: trasera y cameras 0: frontal
           	  scanner.start(cameras[1]);
           } else {
               console.error('No cameras found.');
